@@ -6,9 +6,10 @@ a single path (for black and white prints) or multiple paths (2-8 colors), and s
 each path to an arduino that serves as a printer.  A sample Arduino program can be found 
 [here](https://github.com/ThePowerRule/DrawingMachine/tree/master/Arduino)
 
-Due to the ACT, SAT Subject tests, college applications, and the like, I will not have much time,
-and the time I will invest in this project will be spent on bug-fixing, tweaking, and improving the
-program.
+Due to the ACT, SAT Subject tests, college applications, and the like, I will not have much time
+to work on this program. And the time I invest in this project will be spent on bug-fixing, 
+tweaking, and improving the program rather than providing detailed documentation because the 
+computer app seems pretty intuitive.
 
 # Bugs
 - [ ] JavaFX services for designing and printing the image do not reset after prints,
