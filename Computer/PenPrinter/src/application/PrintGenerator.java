@@ -16,7 +16,9 @@ public class PrintGenerator{
 	private byte[][] pixels;
 	private ArrayList<Point> points = new ArrayList<Point>();
 	public static final int BLACK_AND_WHITE = 0,
-			COLOR = 1;
+			COLOR = 1,
+			PRINTER_PHYSICAL = 3,
+			PRINTER_CSV = 4;
 	private static Color palette[] = {Color.MAGENTA,
 			Color.YELLOW,
 			Color.CYAN,
@@ -27,6 +29,7 @@ public class PrintGenerator{
 			null};
 	private static int numColors = 5;
 	private static int printMethod = BLACK_AND_WHITE;
+	private static int printDirectory = PRINTER_PHYSICAL;
 	public PrintGenerator(Canvas previewCanvas){
 		canvas = previewCanvas;
 	}
